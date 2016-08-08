@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  01-百思不得姐
+//
+//  Created by DAC on 16-8-1.
+//  Copyright (c) 2016年 DAC. All rights reserved.
+//
+
+#ifndef _1_______PrefixHeader_pch
+#define _1_______PrefixHeader_pch
+
+#import "UIView+MONExtension.h"
+#import "UIBarButtonItem+MONExtension.h"
+
+#ifdef DEBUG
+#define MONLog(...) NSLog(__VA_ARGS__)
+#else
+#define MONLog(...)
+#endif
+#define MONLogFunc MONLog(@"%s",__func__)
+
+#define MONRGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define MONGlobalBg MONRGBColor(223,223,223)
+#endif

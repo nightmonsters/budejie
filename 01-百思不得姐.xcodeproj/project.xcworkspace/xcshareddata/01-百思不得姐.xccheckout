@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>617A5374-15BE-41BE-B6CD-9E8CD73EA6C1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>01-百思不得姐</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5905A8C6D6AFDC1DDD066A77D9E7E32FDDE91D81</key>
+		<string>https://github.com/nightmonsters/budejie.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>01-百思不得姐.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5905A8C6D6AFDC1DDD066A77D9E7E32FDDE91D81</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nightmonsters/budejie.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5905A8C6D6AFDC1DDD066A77D9E7E32FDDE91D81</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5905A8C6D6AFDC1DDD066A77D9E7E32FDDE91D81</string>
+			<key>IDESourceControlWCCName</key>
+			<string>budejie</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1808" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MONRecommendViewController">
+            <connections>
+                <outlet property="categoryTableView" destination="L6t-ma-afx" id="RgW-Li-0Dc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="L6t-ma-afx" userLabel="左侧">
+                    <rect key="frame" x="0.0" y="0.0" width="70" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="JgA-F4-EtY"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="PlP-wA-qEc"/>
+                        <outlet property="delegate" destination="-1" id="pqD-8L-SyL"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="L6t-ma-afx" secondAttribute="bottom" id="AcS-f4-a3K"/>
+                <constraint firstItem="L6t-ma-afx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iOX-xE-DUY"/>
+                <constraint firstItem="L6t-ma-afx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="yLf-IU-1bG"/>
+            </constraints>
+            <point key="canvasLocation" x="539" y="193"/>
+        </view>
+    </objects>
+</document>
