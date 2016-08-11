@@ -33,6 +33,13 @@
 		0B57C58E1D585F5C00226FE4 /* MONRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B57C58C1D585F5C00226FE4 /* MONRecommendUserCell.m */; };
 		0B57C58F1D585F5C00226FE4 /* MONRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B57C58D1D585F5C00226FE4 /* MONRecommendUserCell.xib */; };
 		0B57C5921D58640200226FE4 /* MONRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B57C5911D58640200226FE4 /* MONRecommendUser.m */; };
+		0B618C511D5C0CC4006ED6A1 /* MONRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B618C501D5C0CC4006ED6A1 /* MONRecommendTagsViewController.m */; };
+		0B618C541D5C149F006ED6A1 /* MONRecommendTags.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B618C531D5C149F006ED6A1 /* MONRecommendTags.m */; };
+		0B618C581D5C1711006ED6A1 /* MONRecommendTagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B618C561D5C1711006ED6A1 /* MONRecommendTagsCell.m */; };
+		0B618C591D5C1711006ED6A1 /* MONRecommendTagsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B618C571D5C1711006ED6A1 /* MONRecommendTagsCell.xib */; };
+		0B618C5D1D5C62AD006ED6A1 /* MONLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B618C5B1D5C62AD006ED6A1 /* MONLoginRegisterViewController.m */; };
+		0B618C5E1D5C62AD006ED6A1 /* MONLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B618C5C1D5C62AD006ED6A1 /* MONLoginRegisterViewController.xib */; };
+		0B618C611D5C6F85006ED6A1 /* MONVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B618C601D5C6F85006ED6A1 /* MONVerticalButton.m */; };
 		0B6B6A111D545ACF008C727F /* MONFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B6B6A101D545ACF008C727F /* MONFriendTrendsViewController.xib */; };
 		0B6B6A6E1D5467E3008C727F /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B6A481D5467E3008C727F /* AFHTTPRequestOperation.m */; };
 		0B6B6A6F1D5467E3008C727F /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B6A4A1D5467E3008C727F /* AFHTTPRequestOperationManager.m */; };
@@ -163,6 +170,18 @@
 		0B57C58D1D585F5C00226FE4 /* MONRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MONRecommendUserCell.xib; sourceTree = "<group>"; };
 		0B57C5901D58640200226FE4 /* MONRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MONRecommendUser.h; sourceTree = "<group>"; };
 		0B57C5911D58640200226FE4 /* MONRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MONRecommendUser.m; sourceTree = "<group>"; };
+		0B618C4F1D5C0CC4006ED6A1 /* MONRecommendTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MONRecommendTagsViewController.h; sourceTree = "<group>"; };
+		0B618C501D5C0CC4006ED6A1 /* MONRecommendTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MONRecommendTagsViewController.m; sourceTree = "<group>"; };
+		0B618C521D5C149F006ED6A1 /* MONRecommendTags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MONRecommendTags.h; sourceTree = "<group>"; };
+		0B618C531D5C149F006ED6A1 /* MONRecommendTags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MONRecommendTags.m; sourceTree = "<group>"; };
+		0B618C551D5C1711006ED6A1 /* MONRecommendTagsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MONRecommendTagsCell.h; sourceTree = "<group>"; };
+		0B618C561D5C1711006ED6A1 /* MONRecommendTagsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MONRecommendTagsCell.m; sourceTree = "<group>"; };
+		0B618C571D5C1711006ED6A1 /* MONRecommendTagsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MONRecommendTagsCell.xib; sourceTree = "<group>"; };
+		0B618C5A1D5C62AD006ED6A1 /* MONLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MONLoginRegisterViewController.h; path = ../View/MONLoginRegisterViewController.h; sourceTree = "<group>"; };
+		0B618C5B1D5C62AD006ED6A1 /* MONLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MONLoginRegisterViewController.m; path = ../View/MONLoginRegisterViewController.m; sourceTree = "<group>"; };
+		0B618C5C1D5C62AD006ED6A1 /* MONLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MONLoginRegisterViewController.xib; path = ../View/MONLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		0B618C5F1D5C6F85006ED6A1 /* MONVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MONVerticalButton.h; sourceTree = "<group>"; };
+		0B618C601D5C6F85006ED6A1 /* MONVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MONVerticalButton.m; sourceTree = "<group>"; };
 		0B6B6A101D545ACF008C727F /* MONFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MONFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		0B6B6A471D5467E3008C727F /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		0B6B6A481D5467E3008C727F /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
@@ -650,6 +669,8 @@
 			children = (
 				0B6DDA7F1D53263A00A290E3 /* MONEssenceViewController.h */,
 				0B6DDA801D53263A00A290E3 /* MONEssenceViewController.m */,
+				0B618C4F1D5C0CC4006ED6A1 /* MONRecommendTagsViewController.h */,
+				0B618C501D5C0CC4006ED6A1 /* MONRecommendTagsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -657,6 +678,8 @@
 		0B6DDA811D53263A00A290E3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0B618C521D5C149F006ED6A1 /* MONRecommendTags.h */,
+				0B618C531D5C149F006ED6A1 /* MONRecommendTags.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -664,6 +687,9 @@
 		0B6DDA821D53263A00A290E3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0B618C551D5C1711006ED6A1 /* MONRecommendTagsCell.h */,
+				0B618C561D5C1711006ED6A1 /* MONRecommendTagsCell.m */,
+				0B618C571D5C1711006ED6A1 /* MONRecommendTagsCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -687,6 +713,9 @@
 				0B6B6AC01D5468EB008C727F /* MONRecommendViewController.h */,
 				0B6B6AC11D5468EB008C727F /* MONRecommendViewController.m */,
 				0B6B6AC21D5468EB008C727F /* MONRecommendViewController.xib */,
+				0B618C5A1D5C62AD006ED6A1 /* MONLoginRegisterViewController.h */,
+				0B618C5B1D5C62AD006ED6A1 /* MONLoginRegisterViewController.m */,
+				0B618C5C1D5C62AD006ED6A1 /* MONLoginRegisterViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -711,6 +740,8 @@
 				0B57C58B1D585F5C00226FE4 /* MONRecommendUserCell.h */,
 				0B57C58C1D585F5C00226FE4 /* MONRecommendUserCell.m */,
 				0B57C58D1D585F5C00226FE4 /* MONRecommendUserCell.xib */,
+				0B618C5F1D5C6F85006ED6A1 /* MONVerticalButton.h */,
+				0B618C601D5C6F85006ED6A1 /* MONVerticalButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -908,11 +939,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B618C591D5C1711006ED6A1 /* MONRecommendTagsCell.xib in Resources */,
 				0B57C58F1D585F5C00226FE4 /* MONRecommendUserCell.xib in Resources */,
 				0B6B6AED1D547C29008C727F /* MONRecommendCategoryCell.xib in Resources */,
 				0B6B6A771D5467E3008C727F /* LICENSE in Resources */,
 				0B6B6AC41D5468EB008C727F /* MONRecommendViewController.xib in Resources */,
 				0B0B98951D59C8590009A6E1 /* LICENSE in Resources */,
+				0B618C5E1D5C62AD006ED6A1 /* MONLoginRegisterViewController.xib in Resources */,
 				0B6B6ADF1D547B5B008C727F /* LICENSE in Resources */,
 				0B6B6ABE1D546806008C727F /* SVProgressHUD.bundle in Resources */,
 				0B0B98A41D59C8590009A6E1 /* MJRefresh.bundle in Resources */,
@@ -943,6 +976,7 @@
 				0B6B6AC91D547948008C727F /* MONRecommendCategory.m in Sources */,
 				0B6B6ABF1D546806008C727F /* SVProgressHUD.m in Sources */,
 				0B6B6AAB1D5467FF008C727F /* SDWebImagePrefetcher.m in Sources */,
+				0B618C581D5C1711006ED6A1 /* MONRecommendTagsCell.m in Sources */,
 				0B6B6AB11D5467FF008C727F /* UIView+WebCacheOperation.m in Sources */,
 				0B0B98A71D59C8590009A6E1 /* UIScrollView+MJRefresh.m in Sources */,
 				0B0B98A81D59C8590009A6E1 /* UIView+MJExtension.m in Sources */,
@@ -951,16 +985,19 @@
 				0B6B6AE11D547B5B008C727F /* MJFoundation.m in Sources */,
 				0B6B6A7C1D5467E3008C727F /* UIButton+AFNetworking.m in Sources */,
 				0B6B6AE31D547B5B008C727F /* MJType.m in Sources */,
+				0B618C5D1D5C62AD006ED6A1 /* MONLoginRegisterViewController.m in Sources */,
 				0B6B6A6E1D5467E3008C727F /* AFHTTPRequestOperation.m in Sources */,
 				0B6DDAA81D53263A00A290E3 /* MONNewViewController.m in Sources */,
 				0B57C58E1D585F5C00226FE4 /* MONRecommendUserCell.m in Sources */,
 				0B6B6AE61D547B5B008C727F /* NSObject+MJProperty.m in Sources */,
+				0B618C511D5C0CC4006ED6A1 /* MONRecommendTagsViewController.m in Sources */,
 				0B6DDAB11D532EF300A290E3 /* MONNavigationController.m in Sources */,
 				0B0B98A21D59C8590009A6E1 /* MJRefreshNormalHeader.m in Sources */,
 				0B6B6AC31D5468EB008C727F /* MONRecommendViewController.m in Sources */,
 				0B0B98A91D59C8590009A6E1 /* README.md in Sources */,
 				0B6B6AE71D547B5B008C727F /* NSString+MJExtension.m in Sources */,
 				0B6B6AA91D5467FF008C727F /* SDWebImageDownloaderOperation.m in Sources */,
+				0B618C541D5C149F006ED6A1 /* MONRecommendTags.m in Sources */,
 				0B6B6A781D5467E3008C727F /* README.md in Sources */,
 				0B6B6A791D5467E3008C727F /* AFNetworkActivityIndicatorManager.m in Sources */,
 				0B6DDAAA1D53263A00A290E3 /* UIBarButtonItem+MONExtension.m in Sources */,
@@ -977,6 +1014,7 @@
 				0B6B6A711D5467E3008C727F /* AFNetworkReachabilityManager.m in Sources */,
 				0B6B6AAD1D5467FF008C727F /* UIImage+GIF.m in Sources */,
 				0B0B98991D59C8590009A6E1 /* MJRefreshFooter.m in Sources */,
+				0B618C611D5C6F85006ED6A1 /* MONVerticalButton.m in Sources */,
 				0B6DDAA71D53263A00A290E3 /* MONMeViewController.m in Sources */,
 				0B6B6A751D5467E3008C727F /* AFURLResponseSerialization.m in Sources */,
 				0B6B6A741D5467E3008C727F /* AFURLRequestSerialization.m in Sources */,

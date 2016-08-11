@@ -8,6 +8,8 @@
 
 #import "MONFriendTrendsViewController.h"
 #import "MONRecommendViewController.h"
+#import "MONLoginRegisterViewController.h"
+
 @interface MONFriendTrendsViewController ()
 
 @end
@@ -30,6 +32,10 @@
 {
     MONRecommendViewController *vc = [[MONRecommendViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)loginRegister {
+    MONLoginRegisterViewController *login = [[MONLoginRegisterViewController alloc] init];
+    [self presentViewController:login animated:YES completion:nil];
 }
 
 /*

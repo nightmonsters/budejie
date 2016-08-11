@@ -7,7 +7,7 @@
 //
 
 #import "MONEssenceViewController.h"
-
+#import "MONRecommendTagsViewController.h"
 @interface MONEssenceViewController ()
 
 @end
@@ -30,7 +30,8 @@
 
 - (void)tagClick
 {
-    MONLogFunc;
+    MONRecommendTagsViewController *tags = [[MONRecommendTagsViewController alloc] init];
+    [self.navigationController pushViewController:tags animated:YES];
 }
 
 @end

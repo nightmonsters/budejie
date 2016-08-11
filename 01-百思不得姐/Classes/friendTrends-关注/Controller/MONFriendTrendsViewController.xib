@@ -27,7 +27,7 @@
                     <color key="textColor" red="0.95686274510000002" green="0.34101445499059008" blue="0.06668638238555652" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9S8-SQ-Ke8">
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9S8-SQ-Ke8">
                     <rect key="frame" x="179" y="381" width="243" height="48"/>
                     <state key="normal" title="立即点击登录" backgroundImage="friendsTrend_login">
                         <color key="titleColor" red="1" green="0.051662301879999997" blue="0.025363237279999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -36,6 +36,9 @@
                     <state key="highlighted" backgroundImage="friendsTrend_login_click">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="loginRegister" destination="-1" eventType="touchUpInside" id="tsv-Ft-OjG"/>
+                    </connections>
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header_cry_icon" translatesAutoresizingMaskIntoConstraints="NO" id="vSA-yV-jMM">
                     <rect key="frame" x="276" y="171" width="48" height="48"/>

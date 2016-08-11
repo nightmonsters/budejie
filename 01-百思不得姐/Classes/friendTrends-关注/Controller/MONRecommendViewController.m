@@ -78,6 +78,7 @@ static NSString * const MONUserId = @"user";
         [SVProgressHUD dismiss];
         
         //服务器返回的JSON数据
+        
         self.categories = [MONRecommendCategory objectArrayWithKeyValuesArray:responseObject[@"list"]];
         
         //刷新表格
