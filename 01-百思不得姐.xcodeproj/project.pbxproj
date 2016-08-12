@@ -30,6 +30,9 @@
 		0B0B98A91D59C8590009A6E1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0B0B98941D59C8590009A6E1 /* README.md */; };
 		0B102CDE1D4EE62A002FA5EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B102CDD1D4EE62A002FA5EA /* Images.xcassets */; };
 		0B102CED1D4EE62A002FA5EA /* _1______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B102CEC1D4EE62A002FA5EA /* _1______Tests.m */; };
+		0B5242291D5D6CC1003FCDA5 /* MONTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5242281D5D6CC0003FCDA5 /* MONTextField.m */; };
+		0B52422C1D5DA612003FCDA5 /* MONPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B52422B1D5DA612003FCDA5 /* MONPushGuideView.m */; };
+		0B52422E1D5DA629003FCDA5 /* MONPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B52422D1D5DA629003FCDA5 /* MONPushGuideView.xib */; };
 		0B57C58E1D585F5C00226FE4 /* MONRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B57C58C1D585F5C00226FE4 /* MONRecommendUserCell.m */; };
 		0B57C58F1D585F5C00226FE4 /* MONRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B57C58D1D585F5C00226FE4 /* MONRecommendUserCell.xib */; };
 		0B57C5921D58640200226FE4 /* MONRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B57C5911D58640200226FE4 /* MONRecommendUser.m */; };
@@ -165,6 +168,11 @@
 		0B102CE61D4EE62A002FA5EA /* 01-百思不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-百思不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B102CEB1D4EE62A002FA5EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B102CEC1D4EE62A002FA5EA /* _1______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1______Tests.m"; sourceTree = "<group>"; };
+		0B5242271D5D6CC0003FCDA5 /* MONTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MONTextField.h; sourceTree = "<group>"; };
+		0B5242281D5D6CC0003FCDA5 /* MONTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MONTextField.m; sourceTree = "<group>"; };
+		0B52422A1D5DA612003FCDA5 /* MONPushGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MONPushGuideView.h; sourceTree = "<group>"; };
+		0B52422B1D5DA612003FCDA5 /* MONPushGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MONPushGuideView.m; sourceTree = "<group>"; };
+		0B52422D1D5DA629003FCDA5 /* MONPushGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MONPushGuideView.xib; sourceTree = "<group>"; };
 		0B57C58B1D585F5C00226FE4 /* MONRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MONRecommendUserCell.h; sourceTree = "<group>"; };
 		0B57C58C1D585F5C00226FE4 /* MONRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MONRecommendUserCell.m; sourceTree = "<group>"; };
 		0B57C58D1D585F5C00226FE4 /* MONRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MONRecommendUserCell.xib; sourceTree = "<group>"; };
@@ -742,6 +750,8 @@
 				0B57C58D1D585F5C00226FE4 /* MONRecommendUserCell.xib */,
 				0B618C5F1D5C6F85006ED6A1 /* MONVerticalButton.h */,
 				0B618C601D5C6F85006ED6A1 /* MONVerticalButton.m */,
+				0B5242271D5D6CC0003FCDA5 /* MONTextField.h */,
+				0B5242281D5D6CC0003FCDA5 /* MONTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -854,6 +864,9 @@
 			children = (
 				0B6DDAA31D53263A00A290E3 /* MONTabBar.h */,
 				0B6DDAA41D53263A00A290E3 /* MONTabBar.m */,
+				0B52422A1D5DA612003FCDA5 /* MONPushGuideView.h */,
+				0B52422B1D5DA612003FCDA5 /* MONPushGuideView.m */,
+				0B52422D1D5DA629003FCDA5 /* MONPushGuideView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -939,6 +952,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B52422E1D5DA629003FCDA5 /* MONPushGuideView.xib in Resources */,
 				0B618C591D5C1711006ED6A1 /* MONRecommendTagsCell.xib in Resources */,
 				0B57C58F1D585F5C00226FE4 /* MONRecommendUserCell.xib in Resources */,
 				0B6B6AED1D547C29008C727F /* MONRecommendCategoryCell.xib in Resources */,
@@ -1007,6 +1021,7 @@
 				0B6B6AE81D547B5B008C727F /* README.md in Sources */,
 				0B6B6A761D5467E3008C727F /* AFURLSessionManager.m in Sources */,
 				0B0B98A61D59C8590009A6E1 /* UIScrollView+MJExtension.m in Sources */,
+				0B5242291D5D6CC1003FCDA5 /* MONTextField.m in Sources */,
 				0B6B6A701D5467E3008C727F /* AFHTTPSessionManager.m in Sources */,
 				0B0B98961D59C8590009A6E1 /* MJRefreshAutoFooter.m in Sources */,
 				0B6B6AE51D547B5B008C727F /* NSObject+MJKeyValue.m in Sources */,
@@ -1021,6 +1036,7 @@
 				0B6B6A731D5467E3008C727F /* AFURLConnectionOperation.m in Sources */,
 				0B6B6AB01D5467FF008C727F /* UIImageView+WebCache.m in Sources */,
 				0B6B6AAC1D5467FF008C727F /* UIButton+WebCache.m in Sources */,
+				0B52422C1D5DA612003FCDA5 /* MONPushGuideView.m in Sources */,
 				0B6B6AE01D547B5B008C727F /* MJConst.m in Sources */,
 				0B6B6AA81D5467FF008C727F /* SDWebImageDownloader.m in Sources */,
 				0B0B98A01D59C8590009A6E1 /* MJRefreshBackStateFooter.m in Sources */,

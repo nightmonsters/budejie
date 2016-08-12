@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MONTabBarController.h"
+#import "MONPushGuideView.h"
 
 @interface AppDelegate ()
 
@@ -25,12 +26,14 @@
     //设置窗口的根控制器
     UITabBarController *tabBarController = [[MONTabBarController alloc] init];
     
-    
-    
     self.window.rootViewController = tabBarController;
     
     //显示窗口
     [self.window makeKeyAndVisible];
+    
+    //显示推送引导
+    [MONPushGuideView show];
+    
     return YES;
 }
 

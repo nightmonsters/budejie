@@ -9,6 +9,8 @@
 #import "MONLoginRegisterViewController.h"
 
 @interface MONLoginRegisterViewController ()
+/** 登录框距离控制器view左边的间距 */
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *loginViewLeftMargin;
 
 @end
 
@@ -19,10 +21,23 @@
     
    
 }
+- (IBAction)back {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)showLoginOrRegister:(UIButton *)button {
+    //退出键盘
+    [self.view endEditing:YES];
+    if (self.loginViewLeftMargin.constant == 0) {
+        self.loginViewLeftMargin.constant = - self.view.width;
+        [button setTitle:@"已有账号？" forState:UIControlStateNormal];
+    } else {
+        self.loginViewLeftMargin.constant = 0;
+        [button setTitle:@"注册账号" forState:UIControlStateNormal];
+    }
+    [UIView animateWithDuration:0.5 animations:^{
+        [self.view layoutIfNeeded];
+    }];
 }
 
 /**
