@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B007AAE1D61B43600F11838 /* MONTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B007AAD1D61B43600F11838 /* MONTopicViewController.m */; };
+		0B007AB11D61B75B00F11838 /* MONTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B007AB01D61B75B00F11838 /* MONTopic.m */; };
+		0B007AB51D61B78D00F11838 /* MONTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B007AB31D61B78D00F11838 /* MONTopicCell.m */; };
+		0B007AB61D61B78D00F11838 /* MONTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B007AB41D61B78D00F11838 /* MONTopicCell.xib */; };
+		0B007ABB1D61BB3700F11838 /* NSDate+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B007AB91D61BB3700F11838 /* NSDate+XMGExtension.m */; };
 		0B0B98951D59C8590009A6E1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0B0B98661D59C8590009A6E1 /* LICENSE */; };
 		0B0B98961D59C8590009A6E1 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0B986A1D59C8590009A6E1 /* MJRefreshAutoFooter.m */; };
 		0B0B98971D59C8590009A6E1 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0B986C1D59C8590009A6E1 /* MJRefreshBackFooter.m */; };
@@ -122,6 +127,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B007AAC1D61B43600F11838 /* MONTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MONTopicViewController.h; sourceTree = "<group>"; };
+		0B007AAD1D61B43600F11838 /* MONTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MONTopicViewController.m; sourceTree = "<group>"; };
+		0B007AAF1D61B75B00F11838 /* MONTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MONTopic.h; sourceTree = "<group>"; };
+		0B007AB01D61B75B00F11838 /* MONTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MONTopic.m; sourceTree = "<group>"; };
+		0B007AB21D61B78D00F11838 /* MONTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MONTopicCell.h; sourceTree = "<group>"; };
+		0B007AB31D61B78D00F11838 /* MONTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MONTopicCell.m; sourceTree = "<group>"; };
+		0B007AB41D61B78D00F11838 /* MONTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MONTopicCell.xib; sourceTree = "<group>"; };
+		0B007AB91D61BB3700F11838 /* NSDate+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+XMGExtension.m"; path = "../NSDate+XMGExtension.m"; sourceTree = "<group>"; };
+		0B007ABA1D61BB3700F11838 /* NSDate+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+XMGExtension.h"; path = "../NSDate+XMGExtension.h"; sourceTree = "<group>"; };
 		0B0B98661D59C8590009A6E1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0B0B98691D59C8590009A6E1 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		0B0B986A1D59C8590009A6E1 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoFooter.m; sourceTree = "<group>"; };
@@ -679,6 +693,8 @@
 				0B6DDA801D53263A00A290E3 /* MONEssenceViewController.m */,
 				0B618C4F1D5C0CC4006ED6A1 /* MONRecommendTagsViewController.h */,
 				0B618C501D5C0CC4006ED6A1 /* MONRecommendTagsViewController.m */,
+				0B007AAC1D61B43600F11838 /* MONTopicViewController.h */,
+				0B007AAD1D61B43600F11838 /* MONTopicViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -688,6 +704,8 @@
 			children = (
 				0B618C521D5C149F006ED6A1 /* MONRecommendTags.h */,
 				0B618C531D5C149F006ED6A1 /* MONRecommendTags.m */,
+				0B007AAF1D61B75B00F11838 /* MONTopic.h */,
+				0B007AB01D61B75B00F11838 /* MONTopic.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -698,6 +716,9 @@
 				0B618C551D5C1711006ED6A1 /* MONRecommendTagsCell.h */,
 				0B618C561D5C1711006ED6A1 /* MONRecommendTagsCell.m */,
 				0B618C571D5C1711006ED6A1 /* MONRecommendTagsCell.xib */,
+				0B007AB21D61B78D00F11838 /* MONTopicCell.h */,
+				0B007AB31D61B78D00F11838 /* MONTopicCell.m */,
+				0B007AB41D61B78D00F11838 /* MONTopicCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -840,6 +861,8 @@
 		0B6DDA981D53263A00A290E3 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				0B007ABA1D61BB3700F11838 /* NSDate+XMGExtension.h */,
+				0B007AB91D61BB3700F11838 /* NSDate+XMGExtension.m */,
 				0B6DDA991D53263A00A290E3 /* UIBarButtonItem+MONExtension.h */,
 				0B6DDA9A1D53263A00A290E3 /* UIBarButtonItem+MONExtension.m */,
 				0B6DDA9B1D53263A00A290E3 /* UIView+MONExtension.h */,
@@ -965,6 +988,7 @@
 				0B0B98A41D59C8590009A6E1 /* MJRefresh.bundle in Resources */,
 				0B102CDE1D4EE62A002FA5EA /* Images.xcassets in Resources */,
 				0B6B6ABB1D546806008C727F /* LICENSE.txt in Resources */,
+				0B007AB61D61B78D00F11838 /* MONTopicCell.xib in Resources */,
 				0B6B6A111D545ACF008C727F /* MONFriendTrendsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -986,6 +1010,7 @@
 				0B6B6AE21D547B5B008C727F /* MJProperty.m in Sources */,
 				0B6B6A7B1D5467E3008C727F /* UIAlertView+AFNetworking.m in Sources */,
 				0B6B6A7D1D5467E3008C727F /* UIImageView+AFNetworking.m in Sources */,
+				0B007AAE1D61B43600F11838 /* MONTopicViewController.m in Sources */,
 				0B6B6AAA1D5467FF008C727F /* SDWebImageManager.m in Sources */,
 				0B6B6AC91D547948008C727F /* MONRecommendCategory.m in Sources */,
 				0B6B6ABF1D546806008C727F /* SVProgressHUD.m in Sources */,
@@ -1020,6 +1045,7 @@
 				0B6DDAAC1D53263A00A290E3 /* MONTabBarController.m in Sources */,
 				0B6B6AE81D547B5B008C727F /* README.md in Sources */,
 				0B6B6A761D5467E3008C727F /* AFURLSessionManager.m in Sources */,
+				0B007ABB1D61BB3700F11838 /* NSDate+XMGExtension.m in Sources */,
 				0B0B98A61D59C8590009A6E1 /* UIScrollView+MJExtension.m in Sources */,
 				0B5242291D5D6CC1003FCDA5 /* MONTextField.m in Sources */,
 				0B6B6A701D5467E3008C727F /* AFHTTPSessionManager.m in Sources */,
@@ -1034,6 +1060,8 @@
 				0B6B6A751D5467E3008C727F /* AFURLResponseSerialization.m in Sources */,
 				0B6B6A741D5467E3008C727F /* AFURLRequestSerialization.m in Sources */,
 				0B6B6A731D5467E3008C727F /* AFURLConnectionOperation.m in Sources */,
+				0B007AB51D61B78D00F11838 /* MONTopicCell.m in Sources */,
+				0B007AB11D61B75B00F11838 /* MONTopic.m in Sources */,
 				0B6B6AB01D5467FF008C727F /* UIImageView+WebCache.m in Sources */,
 				0B6B6AAC1D5467FF008C727F /* UIButton+WebCache.m in Sources */,
 				0B52422C1D5DA612003FCDA5 /* MONPushGuideView.m in Sources */,
